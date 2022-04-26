@@ -4,9 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Cheat Sheet</title>
 </head>
 <body>
-    <h1>My name is Izzy!</h1>
-</body>
+<a href="blog.html">go to blog</a>
+
+    <!--Headings-->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!--Paragraphs-->
+    <p>Lorem, ipsum dolor sit <strong>amet consectetur</strong> adipisicing <em>elit. Corporis,</em> sapiente?</p>
+    <br>
+    <p>Lorem ipsum, dolor sit <a href="http://google.com" target="_blank"> google</a> adipisicing elit. Ad, quia.</p>
+
+    <!--Lists -->
+    <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ul>
+
+    <ol>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ol>
+
+    <!--Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Izzy</td>
+                <td>Izzy@gmail.com</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Izzy</td>
+                <td>Izzy@gmail.com</td>
+                <td>26</td>
+            </tr>
+            <tr>
+                <td>Izzy</td>
+                <td>Izzy@gmail.com</td>
+                <td>26</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+    <hr>
+<br>
+<!--Forms -->
+<form action="process.php" method="POST">
+    <div>
+        <label>First Name</label>
+        <input type="text" name="FirstName" placeholder="Enter first name here">
+    </div>
+    <br>
+    <div>
+        <label>Last Name</label>
+        <input type="text" name="LastName" placeholder="Enter last name here">
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="Email" name="Email">
+    </div>
+    <br>
+    <div>
+        <label>Message</label>
+        <textarea name="message"></textarea>
+    </div>
+    <br>
+    <div>
+        <label>Gender</label>
+        <Select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </Select>
+    </div>
+    <br>
+    <div>
+        <label>Age</label>
+        <input type="number" name="age" value="25">
+    </div>
+    <br>
+    <div>
+        <label>Birthday</label>
+        <input type="date" name="birthdate">
+    </div>
+    <br>
+    <input type="submit" name="submit" value="submit">
+</form>
+
+<br>
+
+<!--button -->
+<button>click me</button>
+
+<br>
+
+<!--images-->
+<a href="images/sample.png">
+    <img src="images/sample.png" alt="My Sample Image" width="200" height="100">
+</a>
+
+<!--Quotations -->
+<blockquote cite="https://www.dlaps.com.au/">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque natus sequi tenetur mollitia consectetur a sed non praesentium nobis numquam!
+</blockquote>
+
+<p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+<p><cite>HTML Crash course</cite> by Frontend Simplified</p>
+
+        <div style="margin-top:500px"></div>
+    </body>
 </html>
